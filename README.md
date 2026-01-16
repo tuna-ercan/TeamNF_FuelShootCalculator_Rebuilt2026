@@ -2,20 +2,17 @@ Team NF 9029 - Turkey - Rebuilt 2026 - Fuel Trajectory Calculator
 
 -----
 
-[TR]
-__
-Selamlar, bu oyun içi objelerinin izlediği yolları görebileceğiniz bir python programı, Magnus efekti ve drag kuvvetlerini nümerik yineleme yöntemi ile hesaplamaya çalıştım.__
-__
-Çalıştırdığınız zaman açılan sekmede grafiğin yanındaki yerden değerleri değiştirebilirsiniz.__
-__
-Kodun dökümantasyonu yok kusuruma bakmayın. Sorunuz varsa mail atabilirsiniz, müsait olduğum bir anda geri dönüş yaparım.__
-__
-Kütüphaneler: matplotlib, numpy, mpl_toolkits__
-SI birimleri (m,kg,N...)__
-__
-Px: Robotun x konumu __
-Py: Robotun y konumu__
-O: Robotun açısı__
+[TR]\
+\
+Selamlar, bu oyun içi objelerinin izlediği yolları görebileceğiniz bir python programı, Magnus efekti ve drag kuvvetlerini nümerik yineleme yöntemi ile hesaplamaya çalıştım.\
+Çalıştırdığınız zaman açılan sekmede grafiğin yanındaki yerden değerleri değiştirebilirsiniz.\
+Kodun dökümantasyonu yok kusuruma bakmayın. Sorunuz varsa mail atabilirsiniz, müsait olduğum bir anda geri dönüş yaparım.\
+Kütüphaneler: matplotlib, numpy, mpl_toolkits\
+SI birimleri (m,kg,N...)\
+\
+Px: Robotun x konumu\
+Py: Robotun y konumu\
+O: Robotun açısı\
 Ob: Yakıtın fırlatılma açısı (derece)
 w: Yakıtı fırlatan tekerin hızı (rpm)
 rw: Fırlatan tekerin yarıçapı
