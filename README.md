@@ -49,5 +49,5 @@ duration: How many seconds the iteration will last
 n_steps: Iteration amount
 
 -----
-
+Team NF: https://www.instagram.com/teamnf.frc/
 My mail: tuna.ercan@metu.edu.tr
