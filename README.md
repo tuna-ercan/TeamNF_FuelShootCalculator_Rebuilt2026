@@ -3,7 +3,8 @@ Team NF 9029 - Turkey - Rebuilt 2026 - Fuel Trajectory Calculator
 -----
 
 [TR]
-\ \
+\ 
+\
 Selamlar, bu oyun içi objelerinin izlediği yolları görebileceğiniz bir python programı, Magnus efekti ve drag kuvvetlerini nümerik yineleme yöntemi ile hesaplamaya çalıştım.\ \
 Çalıştırdığınız zaman açılan sekmede grafiğin yanındaki yerden değerleri değiştirebilirsiniz.\ \
 Kodun dökümantasyonu yok kusuruma bakmayın. Sorunuz varsa mail atabilirsiniz, müsait olduğum bir anda geri dönüş yaparım.\ \
