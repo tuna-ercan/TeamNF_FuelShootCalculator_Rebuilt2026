@@ -15,7 +15,7 @@ Hava sürtünmesi (drag) ve Magnus etkisi, nümerik yineleme yöntemi ile hesapl
 Programı çalıştırdığınızda, açılan pencerede grafiğin yanında bulunan alanlardan parametreleri gerçek zamanlı olarak değiştirebilirsiniz.
 
 Kod için henüz detaylı bir dökümantasyon ekleyemedim, kusura bakmayın.
-Herhangi bir sorunuz olursa mail atabilirsiniz, müsait olduğumda geri dönüş yaparım.
+Herhangi bir sorunuz olursa Chiefdelphi sayfamıza yazabilirsiniz.
 
 ### Kullanılan Kütüphaneler
 - matplotlib
@@ -51,7 +51,7 @@ Both air drag and the Magnus effect are calculated using numerical iteration met
 When you run the program, you can interactively modify the parameters from the panel next to the graph.
 
 I apologize for the lack of detailed documentation.
-If you have any questions, feel free to contact me via email.
+If you have any questions, feel free to contact me via our Chiefdelphi topic.
 
 ### Libraries Used
 - matplotlib
@@ -79,4 +79,4 @@ If you have any questions, feel free to contact me via email.
 
 ## Links & Contact
 - Team NF Instagram: https://www.instagram.com/teamnf.frc/
-- Mail: tuna.ercan@metu.edu.tr
+- Chiefdelphi: https://www.chiefdelphi.com/t/team-nf-9029-rebuilt-2026-shooter-calculations-tests/511928
