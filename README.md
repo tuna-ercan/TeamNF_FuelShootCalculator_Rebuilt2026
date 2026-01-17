@@ -12,7 +12,7 @@ Selamlar,
 Bu proje, oyun içi objelerin (yakıt vb.) izlediği yörüngeleri görselleştirebileceğiniz bir Python programıdır.
 Hava sürtünmesi (drag) ve Magnus etkisi, nümerik yineleme yöntemi ile hesaplanmıştır.
 
-Programı çalıştırdığınızda, açılan pencerede grafiğin yanında bulunan alanlardan parametreleri gerçek zamanlı olarak değiştirebilirsiniz.
+Programı çalıştırdığınızda, açılan pencerede grafiğin yanında bulunan alanlardan parametreleri gerçek zamanlı olarak değiştirebilirsiniz. Henüz fuel'un C_L ve C_D değerlerini hesaplamadık, C_L ~= 0 ve C_D ~= 0.25 şeklinde yaptığımızda ilk testlerimizde benzer sonuç gördük. Kendi gözlemimiz sonucunda bu sonuca ulaştık, daha detaylı bir test düzeneği kurmayı planlıyoruz.
 
 Kod için henüz detaylı bir dökümantasyon ekleyemedim, kusura bakmayın.
 Herhangi bir sorunuz olursa Chiefdelphi sayfamıza yazabilirsiniz.
@@ -48,7 +48,7 @@ Greetings,
 This project is a Python-based simulation tool that visualizes the trajectories of in-game objects such as fuel.
 Both air drag and the Magnus effect are calculated using numerical iteration methods.
 
-When you run the program, you can interactively modify the parameters from the panel next to the graph.
+When you run the program, you can interactively modify the parameters from the panel next to the graph. We haven't yet calculated the C_L and C_D values ​​of the fuel; we saw similar results in our initial tests when we set C_L ~= 0 and C_D ~= 0.25. We reached this conclusion based on our own observations, and we plan to set up a more detailed testing system.
 
 I apologize for the lack of detailed documentation.
 If you have any questions, feel free to contact me via our Chiefdelphi topic.
