@@ -1,11 +1,10 @@
-from matplotlib.ticker import MultipleLocator
 import numpy as np
 import math as m
 import matplotlib.pyplot as plt
+from matplotlib.ticker import MultipleLocator
 from matplotlib.widgets import Slider
 from matplotlib.gridspec import GridSpec
-from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 (needed)
-
+from mpl_toolkits.mplot3d import Axes3D  
 
 # Inputs
 P_x = 3
@@ -96,12 +95,13 @@ def setup_2d_plot():
     
         
     def on_change(val):
-        angle = angle_slider.val * m.pi / 180
-        rpm = wheel_slider.val
-        C_r = C_roll_slider.val
-        C_d = C_D_slider.val
-        C_l = C_L_slider.val
-        update_plot(angle, rpm, C_r, C_d, C_l)
+        global O_b, w, C_roll, C_D, C_L
+        O_b = angle_slider.val * m.pi / 180
+        w = wheel_slider.val
+        C_roll = C_roll_slider.val
+        C_D = C_D_slider.val
+        C_L = C_L_slider.val
+        update_plot()
         fig.canvas.draw_idle()
 
     angle_slider.on_changed(on_change)
@@ -199,13 +199,13 @@ nsteps_3d_slider = Slider(
 )
 
 def on_3d_change(val):
-    global P_x, P_y, O_r, angle, wheel, R_w, Z_sh, C_roll, C_D, C_L, time, duration, n_steps, dt
+    global P_x, P_y, O_r, O_b, w, R_w, Z_sh, C_roll, C_D, C_L, time, duration, n_steps, dt
     
     P_x = P_x_slider.val
     P_y = P_y_slider.val
     O_r = O_r_slider.val * m.pi / 180
-    angle = angle_3d_slider.val * m.pi / 180
-    wheel = wheel_3d_slider.val
+    O_b = angle_3d_slider.val * m.pi / 180
+    w = wheel_3d_slider.val
     R_w = wheel_3d_radius_slider.val
     Z_sh = zShoot_3d_slider.val
     C_roll = C_roll_3d_slider.val
