@@ -82,7 +82,7 @@ If you have any questions, feel free to contact me via our Chiefdelphi topic.
 - Chiefdelphi: https://www.chiefdelphi.com/t/team-nf-9029-rebuilt-2026-shooter-calculations-tests/511928
 ---
 
-Without Air / Hava Olmadan --> Black / Siyah
+Without Air / Hava Olmadan --> Black / Siyah \
 With Air / Hava Dahik --> Green / Yeşil
 <img width="1981" height="1272" alt="image" src="https://github.com/user-attachments/assets/bacf1dbb-a292-4ad8-9de8-6cc47ab9bbd7" />
 
